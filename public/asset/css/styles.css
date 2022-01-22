@@ -1,0 +1,211 @@
+/* CSS para todos los elementos */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%; 
+}
+
+.img-responsive{
+    width: 100%;    
+}
+
+.img-redondeado{
+    border-radius: 15px;
+}
+
+.texto-derecha{
+    text-align: right;
+}
+
+.texto-centro{
+    text-align: center;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.contenedor-flotante{
+    position: relative;
+}
+
+.texto-flotante{
+    position: absolute;
+    bottom: 50px;
+    left: 35%;
+    color: white;
+}
+/* CSS para seccion navbar */
+.logo{
+    align-items: center;
+    width: 10%;
+    float: left;
+}
+.limpiar{
+    clear: both;
+    float: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ff6b81;
+}
+
+a:hover{
+    background-color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-principal{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-principal:hover{
+    background-color: #ff4757;
+}
+.menu ul {
+    list-style-type: none;
+}
+
+.menu{
+    line-height: 60px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS seccion busqueda */
+.busqueda{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+
+.busqueda input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Categorias */
+.categorias{
+    padding: 4% 0;
+}
+
+.caja-3{
+    float: left;
+    width: 28%;
+    margin: 2%;
+}
+
+
+/* CSS seccion menu */
+.menu-platos{
+    padding: 4% 0;
+    background-color: #ececec;       
+}
+
+.menu-platos-item{
+    background-color: white;
+    width: 43%;
+    padding: 1%;
+    margin: 2%;
+    float: left;
+    border-radius: 15px;
+}
+
+.img-menu{
+    width: 20%;
+    float: left;
+}
+
+.desc-menu{
+    width: 70%;
+    float: left;
+    padding: 1%;
+    margin-left: 8%;
+}
+
+.precio-plato{
+    font-size: 1.2rem;
+    margin: 2% 0
+}
+
+.desc-plato{
+    color: #7f8c8d;
+}
+
+/* CSS seccion redes sociales */
+.social ul{
+    list-style-type: none;
+}
+
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSS para pantallas pequeñas */
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .menu ul{
+        text-align: center;
+        font-size: 0.96rem;
+    }
+    
+    .busqueda input[type="search"]{
+        width: 80%;
+        padding: 2% ;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 80%;
+        padding: 2%;
+    }
+
+    .caja-3{
+        width: 95%;
+        margin: 4% auto;
+    
+    }
+
+    .menu-platos-item{
+        width: 95%;
+        margin: 2% auto;
+    }
+
+}
+    
+
